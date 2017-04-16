@@ -502,7 +502,7 @@ int FM_partition(){
 	
 	while(count--){
 		if(flag == true) { break; }
-		if(free_B == 0){//onlt can move cell from partition A
+		if(free_B == 0){//only can move cell from partition A
 			string tmp_a = get_maxgain_cellname(0);
 			if((abs(partA_size - partB_size - 2 * (cell_vector[cell_dictionary[tmp_a]])->size) < constraint)){
 				record_cell.push(cell_dictionary[tmp_a]);
@@ -514,7 +514,7 @@ int FM_partition(){
 			}
 			else flag = true;
 		}
-		else if (free_A == 0){//onlt can move cell from partition B
+		else if (free_A == 0){//onl can move cell from partition B
 			string tmp_b = get_maxgain_cellname(1);
 			if((abs(partB_size - partA_size - 2 * (cell_vector[cell_dictionary[tmp_b]])->size) < constraint)){
 				record_cell.push(cell_dictionary[tmp_b]);
