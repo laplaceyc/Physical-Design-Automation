@@ -1,0 +1,26 @@
+--How to Compile
+In this directory, enter the following command:
+$ make
+It will generate the excutable file
+"main" in the same directory.
+If you want to remove it please enter the following command:
+$ make clean
+If you want to remove the excutable file and the output file enter the following command:
+$ make veryclean
+
+--How to Run
+Usage: ./<executable file> -b <blocks_file> -n <nets_file> -p <terminal_file> -o <output_file> -r <dead_space_ratio> 
+e.g.:
+./fp -b ../testcases/n100.blocks -n ../testcases/n100.nets -p ../testcases/n100.pl -o n100.output -r 0.1 -s
+
+Parameters:
+    -b: Attach blocks data file name
+    -n: Attach nets data file name
+    -p: Attach terminals data file name
+    -o: Attach output data file name
+    -r: Attach the white space ratio (Must larger than 0.05)
+    -d: Show detail message [Option]
+    -t: Show the time report [Option]
+    -s: Engage assignment of the best performance seed[Option]
+	-h: Show the command usage [Option]
+	-c <custom seed>: assign a custom seed [Option]
