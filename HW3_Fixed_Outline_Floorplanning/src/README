@@ -22,5 +22,5 @@ Parameters:
     -d: Show detail message [Option]
     -t: Show the time report [Option]
     -s: Engage assignment of the best performance seed[Option]
-	-h: Show the command usage [Option]
-	-c <custom seed>: assign a custom seed [Option]
+    -h: Show the command usage [Option]
+    -c <custom seed>: assign a custom seed [Option]
