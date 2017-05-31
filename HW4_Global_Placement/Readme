@@ -1,0 +1,74 @@
+1. 學號：105062600
+2. 姓名：趙奕誠
+3. 使用之程式語言：< C++ >
+4. 使用之編譯器：< GNU g++ >
+5. 檔案壓縮方式: <tar zcvf CS6135_HW4_105062600.tar.gz HW4>
+6. 各檔案說明：
+	 HW4/benchmark    : 程式測資位置
+	 HW4/src/         : 主程式位置  
+	 HW4/src/Makefile : Makefile
+	 HW4/CS6135_HW4_105062600_report.pdf ： 程式報告
+
+7. 編譯方式說明：        	
+   主程式：HW4/src
+	 請在主程式的目錄下，鍵入make指令，即可完成編譯，
+	 如果要重新編譯，請先執行 make clean 再執行一次 make
+	
+   
+
+           . . . . . .  
+8. 執行、使用方式說明：
+   主程式：
+   編譯完成後，在檔案目錄下會產生一個 place 的執行檔
+   執行檔的命令格式為：
+   ./place -aux <inputFile.aux>
+   例如：要對 benchmark 的 ibm01 作 placement
+   則在命令提示下鍵入
+   ./place -aux ../benchmark/ibm01/ibm01-cu85.aux
+
+ 
+9. 執行結果說明（說明執行結果的觀看方法，及解釋各項數據等）：
+   主程式：
+     主程式執行時會在 console 輸出目前執行的步驟以及各自步驟的結果以及最終結果報告
+     例如：執行  ./place -aux ../benchmark/ibm01/ibm01-cu85.aux 後，console 會輸出
+	 
+     Benchmark: ibm01-cu85　// Benchmark 名稱
+     HPWL: 5899472 // 當前 HPWL
+     Memory usage: 17.3 MB // 當前記憶體使用狀況
+     Core region: (-33330,-33208)-(33396,33320) // 本次 Benchmark Core 範圍限制
+
+     ////// Global Placement ///////
+     Objective = 5.35526e+06 ||grad|| = 2.92046 // Objective: Objective Function Result; ||grad||: Absolute value of gradient functions
+     Objective = 4.27905e+06 ||grad|| = 2.71126
+     Objective = 3.33149e+06 ||grad|| = 2.53267
+     ．．．．．．
+	 
+     HPWL: 67278055 // HPWL after global placement
+	 
+     ////// Legalization ///////
+     macro size: 0
+     -----legalization success! // Legalization state
+
+     HPWL: 90085045 (33.90%) // HPWL and percentage diff after legalization 
+
+     ////// Detail Placement ///////
+     run: 0 HPWL=79830968 (-11.383%)(-11.383%)   time: 0 sec   all: 0 sec
+     run: 1 HPWL=77676993 (-2.698%)(-13.774%)   time: 0 sec   all: 0 sec
+     ．．．．．．
+
+     HPWL: 75465324 (-16.23%) // HPWL and percentage diff after detailed placement
+
+     ////////////////////
+     Benchmark: ibm01-cu85 // Benchmark 名稱
+
+     Global HPWL: 67278055   Time:  171.0 sec (2.9 min) // Global Placer 執行結果
+      Legal HPWL: 90085045   Time:    0.0 sec (0.0 min) // Legalizer 執行結果
+     Detail HPWL: 75465324   Time:    1.0 sec (0.0 min) // Detail Placer 執行結果
+     ===================================================================
+            HPWL: 75465324   Time:  172.0 sec (2.9 min) // 最終HPWL結果以及總執行時間
+
+	
+
+
+       
+
