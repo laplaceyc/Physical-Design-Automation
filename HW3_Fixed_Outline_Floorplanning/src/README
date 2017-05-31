@@ -11,7 +11,7 @@ $ make veryclean
 --How to Run
 Usage: ./<executable file> -b <blocks_file> -n <nets_file> -p <terminal_file> -o <output_file> -r <dead_space_ratio> 
 e.g.:
-./fp -b ../testcases/n100.blocks -n ../testcases/n100.nets -p ../testcases/n100.pl -o n100.output -r 0.1 -s
+./fp -b ../testcase/n100.blocks -n ../testcase/n100.nets -p ../testcase/n100.pl -o n100.output -r 0.1 -s
 
 Parameters:
     -b: Attach blocks data file name
