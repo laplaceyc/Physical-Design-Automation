@@ -1,47 +1,43 @@
-1. ¾Ç¸¹¡G105062600
-2. ©m¦W¡G»¯«³¸Û
-3. ¨Ï¥Î¤§µ{¦¡»y¨¥¡G< C++ >
-4. ¨Ï¥Î¤§½sÄ¶¾¹¡G< GNU g++ >
-5. ÀÉ®×À£ÁY¤è¦¡: <tar zcvf CS6135_HW4_105062600.tar.gz HW4>
-6. ¦UÀÉ®×»¡©ú¡G
-	 HW4/benchmark    : µ{¦¡´ú¸ê¦ì¸m
-	 HW4/src/         : ¥Dµ{¦¡¦ì¸m  
+1. å­¸è™Ÿï¼š105062600
+2. å§“åï¼šè¶™å¥•èª 
+3. ä½¿ç”¨ä¹‹ç¨‹å¼èªè¨€ï¼š< C++ >
+4. ä½¿ç”¨ä¹‹ç·¨è­¯å™¨ï¼š< GNU g++ >
+5. æª”æ¡ˆå£“ç¸®æ–¹å¼: <tar zcvf CS6135_HW4_105062600.tar.gz HW4>
+6. å„æª”æ¡ˆèªªæ˜ï¼š
+	 HW4/benchmark    : ç¨‹å¼æ¸¬è³‡ä½ç½®
+	 HW4/src/         : ä¸»ç¨‹å¼ä½ç½®  
 	 HW4/src/Makefile : Makefile
-	 HW4/CS6135_HW4_105062600_report.pdf ¡G µ{¦¡³ø§i
+	 HW4/CS6135_HW4_105062600_report.pdf ï¼š ç¨‹å¼å ±å‘Š
 
-7. ½sÄ¶¤è¦¡»¡©ú¡G        	
-   ¥Dµ{¦¡¡GHW4/src
-	 ½Ğ¦b¥Dµ{¦¡ªº¥Ø¿ı¤U¡AÁä¤Jmake«ü¥O¡A§Y¥i§¹¦¨½sÄ¶¡A
-	 ¦pªG­n­«·s½sÄ¶¡A½Ğ¥ı°õ¦æ make clean ¦A°õ¦æ¤@¦¸ make
+7. ç·¨è­¯æ–¹å¼èªªæ˜ï¼š        	
+   ä¸»ç¨‹å¼ï¼šHW4/src
+	 è«‹åœ¨ä¸»ç¨‹å¼çš„ç›®éŒ„ä¸‹ï¼Œéµå…¥makeæŒ‡ä»¤ï¼Œå³å¯å®Œæˆç·¨è­¯ï¼Œ
+	 å¦‚æœè¦é‡æ–°ç·¨è­¯ï¼Œè«‹å…ˆåŸ·è¡Œ make clean å†åŸ·è¡Œä¸€æ¬¡ make
 	
-   
-
-           . . . . . .  
-8. °õ¦æ¡B¨Ï¥Î¤è¦¡»¡©ú¡G
-   ¥Dµ{¦¡¡G
-   ½sÄ¶§¹¦¨«á¡A¦bÀÉ®×¥Ø¿ı¤U·|²£¥Í¤@­Ó place ªº°õ¦æÀÉ
-   °õ¦æÀÉªº©R¥O®æ¦¡¬°¡G
+8. åŸ·è¡Œã€ä½¿ç”¨æ–¹å¼èªªæ˜ï¼š
+   ä¸»ç¨‹å¼ï¼š
+   ç·¨è­¯å®Œæˆå¾Œï¼Œåœ¨æª”æ¡ˆç›®éŒ„ä¸‹æœƒç”¢ç”Ÿä¸€å€‹ place çš„åŸ·è¡Œæª”
+   åŸ·è¡Œæª”çš„å‘½ä»¤æ ¼å¼ç‚ºï¼š
    ./place -aux <inputFile.aux>
-   ¨Ò¦p¡G­n¹ï benchmark ªº ibm01 §@ placement
-   «h¦b©R¥O´£¥Ü¤UÁä¤J
+   ä¾‹å¦‚ï¼šè¦å° benchmark çš„ ibm01 ä½œ placement
+   å‰‡åœ¨å‘½ä»¤æç¤ºä¸‹éµå…¥
    ./place -aux ../benchmark/ibm01/ibm01-cu85.aux
 
- 
-9. °õ¦æµ²ªG»¡©ú¡]»¡©ú°õ¦æµ²ªGªºÆ[¬İ¤èªk¡A¤Î¸ÑÄÀ¦U¶µ¼Æ¾Úµ¥¡^¡G
-   ¥Dµ{¦¡¡G
-     ¥Dµ{¦¡°õ¦æ®É·|¦b console ¿é¥X¥Ø«e°õ¦æªº¨BÆJ¥H¤Î¦U¦Û¨BÆJªºµ²ªG¥H¤Î³Ì²×µ²ªG³ø§i
-     ¨Ò¦p¡G°õ¦æ  ./place -aux ../benchmark/ibm01/ibm01-cu85.aux «á¡Aconsole ·|¿é¥X
+9. åŸ·è¡Œçµæœèªªæ˜ï¼ˆèªªæ˜åŸ·è¡Œçµæœçš„è§€çœ‹æ–¹æ³•ï¼ŒåŠè§£é‡‹å„é …æ•¸æ“šç­‰ï¼‰ï¼š
+   ä¸»ç¨‹å¼ï¼š
+     ä¸»ç¨‹å¼åŸ·è¡Œæ™‚æœƒåœ¨ console è¼¸å‡ºç›®å‰åŸ·è¡Œçš„æ­¥é©Ÿä»¥åŠå„è‡ªæ­¥é©Ÿçš„çµæœä»¥åŠæœ€çµ‚çµæœå ±å‘Š
+     ä¾‹å¦‚ï¼šåŸ·è¡Œ  ./place -aux ../benchmark/ibm01/ibm01-cu85.aux å¾Œï¼Œconsole æœƒè¼¸å‡º
 	 
-     Benchmark: ibm01-cu85¡@// Benchmark ¦WºÙ
-     HPWL: 5899472 // ·í«e HPWL
-     Memory usage: 17.3 MB // ·í«e°O¾ĞÅé¨Ï¥Îª¬ªp
-     Core region: (-33330,-33208)-(33396,33320) // ¥»¦¸ Benchmark Core ½d³ò­­¨î
+     Benchmark: ibm01-cu85ã€€// Benchmark åç¨±
+     HPWL: 5899472 // ç•¶å‰ HPWL
+     Memory usage: 17.3 MB // ç•¶å‰è¨˜æ†¶é«”ä½¿ç”¨ç‹€æ³
+     Core region: (-33330,-33208)-(33396,33320) // æœ¬æ¬¡ Benchmark Core ç¯„åœé™åˆ¶
 
      ////// Global Placement ///////
      Objective = 5.35526e+06 ||grad|| = 2.92046 // Objective: Objective Function Result; ||grad||: Absolute value of gradient functions
      Objective = 4.27905e+06 ||grad|| = 2.71126
      Objective = 3.33149e+06 ||grad|| = 2.53267
-     ¡D¡D¡D¡D¡D¡D
+     ï¼ï¼ï¼ï¼ï¼ï¼
 	 
      HPWL: 67278055 // HPWL after global placement
 	 
@@ -54,21 +50,15 @@
      ////// Detail Placement ///////
      run: 0 HPWL=79830968 (-11.383%)(-11.383%)   time: 0 sec   all: 0 sec
      run: 1 HPWL=77676993 (-2.698%)(-13.774%)   time: 0 sec   all: 0 sec
-     ¡D¡D¡D¡D¡D¡D
+     ï¼ï¼ï¼ï¼ï¼ï¼
 
      HPWL: 75465324 (-16.23%) // HPWL and percentage diff after detailed placement
 
      ////////////////////
-     Benchmark: ibm01-cu85 // Benchmark ¦WºÙ
+     Benchmark: ibm01-cu85 // Benchmark åç¨±
 
-     Global HPWL: 67278055   Time:  171.0 sec (2.9 min) // Global Placer °õ¦æµ²ªG
-      Legal HPWL: 90085045   Time:    0.0 sec (0.0 min) // Legalizer °õ¦æµ²ªG
-     Detail HPWL: 75465324   Time:    1.0 sec (0.0 min) // Detail Placer °õ¦æµ²ªG
+     Global HPWL: 67278055   Time:  171.0 sec (2.9 min) // Global Placer åŸ·è¡Œçµæœ
+      Legal HPWL: 90085045   Time:    0.0 sec (0.0 min) // Legalizer åŸ·è¡Œçµæœ
+     Detail HPWL: 75465324   Time:    1.0 sec (0.0 min) // Detail Placer åŸ·è¡Œçµæœ
      ===================================================================
-            HPWL: 75465324   Time:  172.0 sec (2.9 min) // ³Ì²×HPWLµ²ªG¥H¤ÎÁ`°õ¦æ®É¶¡
-
-	
-
-
-       
-
+            HPWL: 75465324   Time:  172.0 sec (2.9 min) // æœ€çµ‚HPWLçµæœä»¥åŠç¸½åŸ·è¡Œæ™‚é–“
