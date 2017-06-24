@@ -5,7 +5,7 @@ It will generate the excutable file
 "main" in the same directory.
 If you want to remove it please enter the following command:
 $ make clean
-If you want to remove the excutable file and the output file enter the following command:
+If you want to remove the executable file and the output file enter the following command:
 $ make veryclean
 
 --How to Run
