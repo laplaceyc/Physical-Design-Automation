@@ -45,13 +45,13 @@ void GlobalPlacer::place()
 	srand(time(NULL));
 	randomPlace(x);
 	
-	int round = 10;
+	int round = 4;
 	for(int i = 0; i < round; ++i){
 	
 		ef.beta = i * 5000;
 		no.setX(x);//set initial solution
 		if(!i){
-			no.setNumIteration(100); // user-specified parameter
+			no.setNumIteration(150); // user-specified parameter
 		}
 		else{
 			no.setNumIteration(30); // user-specified parameter
